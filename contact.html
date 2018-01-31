@@ -10,44 +10,44 @@
 </head>
 <body>
         <header>
+            <div class="header">
                 <h1>Chris Etges</h1>
                 <!-- Nav bar links -->
-                <nav>
-                    <a href="index.html">About</a>
-                    <a href="portfolio.html">Portfolio</a>
+                <nav class="nav">
+                    <a href="index.html">About &nbsp; |</a>
+                    <a href="portfolio.html">Portfolio &nbsp; |</a>
                     <a href="contact.html">Contact Me</a>
                 </nav>
-        
+            </div>
         </header>
         
-        <section>
-            <h2>Contact</h2>
+        <hr>
+        <div class="container">
+            <section class="contactForm">
+                <h2>Contact</h2>
+                <hr>
+                <form action="mailto:c.etges86@gmail.com">
+                    Name: <br> <input type="text" name="name"><br>
 
-            <form action="mailto:c.etges86@gmail.com">
-                Name: <br> <input type="text" name="name"><br>
+                    E-mail address: <br> <input type="text"><br>
 
-                E-mail address: <br> <input type="text"><br>
+                    Message: <br> <textarea rows="15" id="message" type="text">Type your message here!</textarea><br>
 
-                Message: <br> <input type="text"><br>
+                    <input id="submit" type="submit" name="">
 
-                <input type="submit" name="" id="submit button">
-
-            </form>
-
-        </section>
+                </form>
+            </section>
         
+            <section class="contactMe">
+                    <h3>Connect With Me</h3>
+                    <!--logo images -->
+                    <a href="https://github.com/cetges86"><img class="logos" src="images/githublogo.png" alt="github logo"></a>
+                    <a href="https://www.linkedin.com/in/chrisetges"><img class="logos" src="images/linkedinlogo.png" alt="linkedin logo"></a>
+                    <a href="https://stackoverflow.com/users/8929426/christopher-etges?tab=profile"><img class="logos" src="images/overflowlogo.png" alt="stack overflow icon"></a>
 
-
-        <section>
-                <h3>Connect With Me</h3>
-                <!--logo images -->
-                <a href="https://github.com/cetges86"><img src="images/githublogo.png" alt="github logo"></a>
-                <a href="https://www.linkedin.com/in/chrisetges"><img src="images/linkedinlogo.png" alt="linkedin logo"></a>
-                <a href="https://stackoverflow.com/users/8929426/christopher-etges?tab=profile"><img src="images/overflowlogo.png" alt="stack overflow icon"></a>
-
-        
-        </section>
             
+            </section>
+        </div>
         <footer>
             <p>Copyright 2018 Chris Etges</p>
         </footer>

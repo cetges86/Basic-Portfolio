@@ -3,13 +3,10 @@
     margin: 0% 8%;
     justify-content: space-between;
 }
-/* .mainPage{
-    background-image: url(../images/circles-light.png);
-    background-size: fill;
-} */
+/* Main Container */
 .container {
     background-image: url(../images/circles-light.png);
-    margin: 4% 8%;
+    margin: -1% -1%;
     align-content: center;
     display: flex;
     align-items: flex-start;
@@ -17,21 +14,24 @@
 }
 
 .container section {
-    border: 1px solid black;
+    border: 1px solid lightgray;
     padding: 10px;
 }
 
+/* Main section */
 .aboutMe {
     justify-content: center;
     flex-basis: 650px;
+    margin-left:66px;
 }
 
+/* Contact Me Box */
 .contactMe {
     justify-content: center;
     flex-basis: 270px;
     text-align: center;
 }
- p {
+ section p {
      line-height: 1.5;
      margin:5px;
      color: #777777;
@@ -63,6 +63,7 @@ h2, h3 {
     color: #4aaaa5;
 }
 
+/* nav bar links */
 .nav{
     align-items: flex-end;
     margin:0 auto;
@@ -85,4 +86,38 @@ nav a {
 
 .logos {
     max-width: 65px;
+}
+
+.contactForm {
+    justify-content: center;
+    flex-basis: 650px;
+    margin-left:66px;
+    line-height: 1.5;
+}
+
+input {
+    width: 100%;
+    padding: 12px 0px;
+}
+
+#message {
+    height:15em;
+    width: 100%;
+    resize: none;
+}
+
+#submit {
+    width: 15%;
+    margin: 15px 0px 30px;
+}
+
+footer {
+    position: fixed;
+    height: 65px;
+    text-align: center;
+    background-color: #666666;
+    border-top: #4aaaa5 5px solid;
+    margin: -10px -15px;
+    width: 100%;
+    right: 15px;
 }
