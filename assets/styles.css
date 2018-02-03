@@ -104,21 +104,36 @@ nav a {
     margin-bottom: 10%;
 }
 
+.image {
+    position: relative;
+    width: 40%;
+    margin: 3%;
+    display: inline-block;
+}
+
+.image h4 {
+    position: absolute;
+    top: 125px;
+    left: 20px;
+    background-color: #4aaaa5;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    opacity: .8;
+}
+
 .portImage {
-    width: 45%;
+    width: 100%;
     min-height: 200px;
     margin: 10px;
 }
-#trukeep {
-    width: 45%;
-    height: 300px;
-    margin: 10px;
-}
+
 .contactForm {
     justify-content: center;
     flex-basis: 650px;
     margin-left:66px;
     line-height: 1.5;
+    margin-bottom: 10%;
 }
 
 input {
